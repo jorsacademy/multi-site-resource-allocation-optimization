@@ -1,4 +1,18 @@
-# Multi-Site Resource Allocation Optimization
+# Resource Allocation Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`hungarian-assignment-optimization-python`](projects/hungarian-assignment-optimization-python/)
+- [`risk-based-resource-allocation-milp-python`](projects/risk-based-resource-allocation-milp-python/)
+- [`scarce-water-resource-allocation-optimization`](projects/scarce-water-resource-allocation-optimization/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 A small operations-research project that allocates integer staffing across three service sites while respecting staffing bounds, budget limits, total workforce availability, deployment demand, and strategic allocation targets.
 
